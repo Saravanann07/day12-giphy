@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIPHY Search</title>
+</head>
+<body>
+    <form action="/search" method = "GET">
+        <h1>GIPHY Search</h1>
+        <br>
+    <label for="q">Phrase</label>
+    <input type="text" name="q">
+    <br>
+    <br>
+    <label for="limit">Limit</label>
+    <select name="limit" id="limit">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">20</option>
+        <option value="20">20</option>
+    </select>
+    <br>
+    <br>
+    <label for="rating">Rating</label>
+    <select name="rating" id="rating">
+        <option value="g">g</option>
+        <option value="pg">pg</option>
+        <option value="pg-13">pg-13</option>
+        <option value="r">r</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
