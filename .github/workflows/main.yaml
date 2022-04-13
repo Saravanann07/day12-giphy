@@ -40,6 +40,6 @@ jobs:
         secret_key: ${{ secrets.secret_key }}
         space_name: sara
         space_region: sgp1
-        source: .taget/site/jacoco
+        source: target/site/jacoco
         out_dir: coverage/${{ github.event.repository.name }}/report
 
